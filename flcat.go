@@ -66,7 +66,7 @@ func main() {
 	flag.StringVar(&fn, "fn", "", "name of fl file to emit")
 	flag.IntVar(&rlen, "rlen", 0, "record length")
 	flag.IntVar(&koff, "koff", 0, "offset of key in record")
-	flag.IntVar(&rlen, "rlen", 0, "record key length")
+	flag.IntVar(&klen, "klen", 0, "record key length")
 	flag.Parse()
 
 	if rlen == 0 {
